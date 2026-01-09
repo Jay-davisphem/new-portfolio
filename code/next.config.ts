@@ -1,0 +1,17 @@
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  /* config options here */
+  reactCompiler: true,
+  images: {
+    remotePatterns: [
+      // GitHub raw content
+      { protocol: "https", hostname: "raw.githubusercontent.com" },
+      // Common image CDNs (safe defaults)
+      { protocol: "https", hostname: "images.unsplash.com" },
+      { protocol: "https", hostname: "cdn.jsdelivr.net" },
+    ],
+  },
+};
+
+export default nextConfig;

@@ -1,0 +1,104 @@
+{
+  "version": "1",
+  "profile": {
+    "name": "Alex Davis",
+    "roleHeadline": "I craft digital experiences.",
+    "heroCtaText": "See My Work",
+    "avatarImage": {
+      "src": "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?auto=format&fit=crop&w=900&q=80",
+      "alt": "Portrait photo"
+    }
+  },
+  "navigation": [
+    { "label": "Home", "href": "#home" },
+    { "label": "About", "href": "#about" },
+    { "label": "Personal Photo", "href": "#photo" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "featuredProjects": {
+    "title": "FEATURED PROJECTS",
+    "items": [
+      {
+        "title": "Fintech Dashboard",
+        "description": "A responsive analytics dashboard with charts, auth, and a clean design system.",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+          "alt": "Dashboard on a laptop"
+        },
+        "ctaLabel": "View Case Study",
+        "ctaHref": "https://example.com"
+      },
+      {
+        "title": "E-commerce UI Kit",
+        "description": "Reusable components and page templates optimized for conversion and speed.",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1200&q=80",
+          "alt": "Product photography"
+        },
+        "ctaLabel": "View Case Study",
+        "ctaHref": "https://example.com"
+      },
+      {
+        "title": "Portfolio Redesign",
+        "description": "A design-accurate landing page with smooth motion, dark mode, and SEO.",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
+          "alt": "Code editor on screen"
+        },
+        "ctaLabel": "View Case Study",
+        "ctaHref": "https://example.com"
+      }
+    ]
+  },
+  "skills": {
+    "title": "SKILLS & EXPERTISE",
+    "items": [
+      { "label": "UI/UX Design", "icon": "uiux" },
+      { "label": "Frontend Dev", "icon": "frontend" },
+      { "label": "Next.js", "icon": "nextjs" },
+      { "label": "React", "icon": "react" },
+      { "label": "TypeScript", "icon": "typescript" },
+      { "label": "Design Systems", "icon": "design-systems" },
+      { "label": "Accessibility", "icon": "a11y" },
+      { "label": "Performance", "icon": "performance" }
+    ]
+  },
+  "newsletter": {
+    "enabled": true,
+    "title": "Join my newsletter",
+    "description": "Occasional updates on projects, UI patterns, and things I’m learning.",
+    "placeholder": "Enter your email",
+    "buttonText": "Subscribe"
+  },
+  "footer": {
+    "columns": [
+      {
+        "title": "About",
+        "links": [
+          { "label": "Overview", "href": "#about" },
+          { "label": "Work", "href": "#work" }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          { "label": "Projects", "href": "#work" },
+          { "label": "Skills", "href": "#skills" }
+        ]
+      },
+      {
+        "title": "Contact",
+        "links": [
+          { "label": "Email", "href": "mailto:hello@example.com" },
+          { "label": "LinkedIn", "href": "https://linkedin.com" }
+        ]
+      }
+    ],
+    "social": [
+      { "type": "github", "href": "https://github.com" },
+      { "type": "linkedin", "href": "https://linkedin.com" },
+      { "type": "x", "href": "https://x.com" }
+    ],
+    "copyright": "© 2026 Alex Davis. All rights reserved."
+  }
+}

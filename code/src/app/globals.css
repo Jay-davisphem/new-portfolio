@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f4f5f7;
+  --foreground: #0f172a;
+  --muted: rgba(15, 23, 42, 0.6);
+
+  --surface: #ffffff;
+  --surface-2: #f8fafc;
+  --border: rgba(15, 23, 42, 0.08);
+
+  --accent: #111827;
+  --accent-foreground: #ffffff;
+
+  --radius-xl: 20px;
+  --radius-lg: 16px;
+  --shadow: 0 12px 34px rgba(15, 23, 42, 0.10);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0b1220;
+    --foreground: #e5e7eb;
+    --muted: rgba(226, 232, 240, 0.7);
+    --surface: #0f172a;
+    --surface-2: #0b1428;
+    --border: rgba(226, 232, 240, 0.12);
+
+    --accent: #ffffff;
+    --accent-foreground: #0b1220;
+
+    --shadow: 0 12px 34px rgba(0, 0, 0, 0.40);
+  }
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+html:not(.dark) {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, -apple-system, Segoe UI, Roboto, Arial,
+    "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.container-shell {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1120px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.surface {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  border-radius: var(--radius-xl);
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 18px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--accent-foreground);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.btn-primary:focus-visible,
+.btn-ghost:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--accent) 65%, transparent);
+  outline-offset: 2px;
+}
+
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
+  color: var(--foreground);
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+* {
+  box-sizing: border-box;
+}
