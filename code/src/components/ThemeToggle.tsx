@@ -51,7 +51,7 @@ export function ThemeToggle() {
   }, [mode]);
 
   return (
-    <div className="inline-flex items-center gap-2 rounded-full border border-zinc-200 bg-white px-2 py-1 text-xs text-zinc-700 shadow-sm dark:border-zinc-800 dark:bg-zinc-950 dark:text-zinc-200">
+    <div className="inline-flex items-center gap-2 rounded-full border border-(--border) bg-(--surface) px-2 py-1 text-xs text-(--foreground) shadow-sm">
       <span className="px-2">Theme</span>
       <select
         aria-label="Theme"

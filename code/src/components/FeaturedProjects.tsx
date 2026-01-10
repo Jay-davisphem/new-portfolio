@@ -2,6 +2,7 @@ import type { FeaturedProject } from "@/lib/portfolio/types";
 import Image from "next/image";
 import Link from "next/link";
 import { IconArrowRight } from "@/components/icons";
+import { Reveal } from "@/components/motion/Reveal";
 
 export function FeaturedProjects(props: {
   title: string;
@@ -10,15 +11,18 @@ export function FeaturedProjects(props: {
   return (
     <section className="pt-14 md:pt-18" id="work">
       <div className="container-shell">
-        <div className="mb-5 flex items-end justify-between">
-          <h2 className="text-sm font-semibold tracking-[0.18em] text-(--muted)">
-            {props.title}
-          </h2>
-        </div>
+        <Reveal as="div" className="mb-5 flex items-end justify-between">
+          <h2 className="text-sm font-semibold tracking-[0.18em] text-(--muted)">{props.title}</h2>
+        </Reveal>
 
         <div className="grid gap-5 md:grid-cols-3">
-          {props.items.map((p) => (
-            <article key={p.title} className="surface overflow-hidden">
+          {props.items.map((p, idx) => (
+            <Reveal
+              key={p.title}
+              as="article"
+              className="surface hover-lift overflow-hidden"
+              style={{ transitionDelay: `${Math.min(240, idx * 90)}ms` }}
+            >
               <div className="relative aspect-16/10 w-full overflow-hidden">
                 <Image
                   src={p.image.src}
@@ -43,7 +47,7 @@ export function FeaturedProjects(props: {
                   </Link>
                 </div>
               </div>
-            </article>
+            </Reveal>
           ))}
         </div>
       </div>
