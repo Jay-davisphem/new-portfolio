@@ -1,104 +1,111 @@
 {
   "version": "1",
   "profile": {
-    "name": "Alex Davis",
-    "roleHeadline": "I craft digital experiences.",
-    "heroCtaText": "See My Work",
+    "name": "Oluwafemi David",
+    "roleHeadline": "Full Stack Engineer & AI Systems Developer",
+    "heroCtaText": "View My Work",
     "avatarImage": {
-      "src": "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?auto=format&fit=crop&w=900&q=80",
-      "alt": "Portrait photo"
+      "src": "https://avatars.githubusercontent.com/u/jay-davisphem",
+      "alt": "Oluwafemi David - Software Engineer"
     }
   },
   "navigation": [
     { "label": "Home", "href": "#home" },
     { "label": "About", "href": "#about" },
-    { "label": "Personal Photo", "href": "#photo" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Skills", "href": "#skills" },
     { "label": "Contact", "href": "#contact" }
   ],
   "featuredProjects": {
     "title": "FEATURED PROJECTS",
     "items": [
       {
-        "title": "Fintech Dashboard",
-        "description": "A responsive analytics dashboard with charts, auth, and a clean design system.",
+        "title": "Sandsstores E-Commerce Platform",
+        "description": "Led ReactJS frontend development for a high-performance e-commerce platform serving customers in Pennsylvania, USA. Built with Next.js and Tailwind CSS, deployed on Vercel with AWS S3 integration. Delivered intuitive UI/UX that improved customer engagement and conversion rates.",
         "image": {
-          "src": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
-          "alt": "Dashboard on a laptop"
+          "src": "https://images.unsplash.com/photo-1557821552-17105176677c?w=1200&h=800&fit=crop&auto=format&q=80",
+          "alt": "E-commerce platform dashboard"
         },
-        "ctaLabel": "View Case Study",
-        "ctaHref": "https://example.com"
+        "ctaLabel": "View Project",
+        "ctaHref": "https://github.com/jay-davisphem"
       },
       {
-        "title": "E-commerce UI Kit",
-        "description": "Reusable components and page templates optimized for conversion and speed.",
+        "title": "Model Context Protocol (MCP) Research",
+        "description": "Building expertise in context-aware AI systems and multi-agent orchestration. Completed foundational stage (Rookie Builder) focusing on context management, token optimization, and LLM API integration. Currently progressing toward Systems Integration and AI Architecture.",
         "image": {
-          "src": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1200&q=80",
-          "alt": "Product photography"
+          "src": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=800&fit=crop&auto=format&q=80",
+          "alt": "AI and machine learning visualization"
         },
-        "ctaLabel": "View Case Study",
-        "ctaHref": "https://example.com"
+        "ctaLabel": "Learn More",
+        "ctaHref": "#mcp-journey"
       },
       {
-        "title": "Portfolio Redesign",
-        "description": "A design-accurate landing page with smooth motion, dark mode, and SEO.",
+        "title": "Favicon Generator Web App",
+        "description": "Full-stack application developed during Software Engineer Internship at Zuri Inc. Designed database schemas using PostgreSQL and prototyped cloud migration solutions. Coordinated cross-functional team of technical interns to deliver production-ready features.",
         "image": {
-          "src": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
-          "alt": "Code editor on screen"
+          "src": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200&h=800&fit=crop&auto=format&q=80",
+          "alt": "Web development tools and code editor"
         },
-        "ctaLabel": "View Case Study",
-        "ctaHref": "https://example.com"
+        "ctaLabel": "View on GitHub",
+        "ctaHref": "https://github.com/jay-davisphem"
       }
     ]
   },
   "skills": {
     "title": "SKILLS & EXPERTISE",
     "items": [
-      { "label": "UI/UX Design", "icon": "uiux" },
-      { "label": "Frontend Dev", "icon": "frontend" },
-      { "label": "Next.js", "icon": "nextjs" },
-      { "label": "React", "icon": "react" },
-      { "label": "TypeScript", "icon": "typescript" },
-      { "label": "Design Systems", "icon": "design-systems" },
-      { "label": "Accessibility", "icon": "a11y" },
-      { "label": "Performance", "icon": "performance" }
+      { "label": "React & Next.js", "icon": "frontend" },
+      { "label": "Python & Django", "icon": "backend" },
+      { "label": "JavaScript/TypeScript", "icon": "typescript" },
+      { "label": "PostgreSQL & Database Design", "icon": "database" },
+      { "label": "AWS & Azure Cloud", "icon": "cloud" },
+      { "label": "Tailwind CSS", "icon": "design-systems" },
+      { "label": "AI/ML Model Quality", "icon": "ai" },
+      { "label": "Git & CI/CD", "icon": "devops" },
+      { "label": "RESTful APIs", "icon": "api" },
+      { "label": "Team Leadership", "icon": "team" }
     ]
   },
   "newsletter": {
     "enabled": true,
-    "title": "Join my newsletter",
-    "description": "Occasional updates on projects, UI patterns, and things I’m learning.",
-    "placeholder": "Enter your email",
-    "buttonText": "Subscribe"
+    "title": "Let's Build Something Together",
+    "description": "I'm a Computer Engineering student (4.45/5.00 CGPA) passionate about full-stack development and AI systems. Currently working as an AI Model Quality Analyst at Turing while expanding my expertise in Model Context Protocol and multi-agent systems. Open to internship opportunities and collaborative projects.",
+    "placeholder": "davidoluwafemi178@gmail.com",
+    "buttonText": "Get In Touch"
   },
   "footer": {
     "columns": [
       {
         "title": "About",
         "links": [
-          { "label": "Overview", "href": "#about" },
-          { "label": "Work", "href": "#work" }
+          { "label": "My Story", "href": "#about" },
+          { "label": "Resume", "href": "/resume.pdf" },
+          { "label": "MCP Roadmap", "href": "#mcp-journey" }
         ]
       },
       {
-        "title": "Company",
+        "title": "Experience",
         "links": [
-          { "label": "Projects", "href": "#work" },
-          { "label": "Skills", "href": "#skills" }
+          { "label": "Turing (AI Quality Analyst)", "href": "#experience" },
+          { "label": "Sandsstores (Frontend Lead)", "href": "#experience" },
+          { "label": "Zuri Inc (SWE Intern)", "href": "#experience" }
         ]
       },
       {
         "title": "Contact",
         "links": [
-          { "label": "Email", "href": "mailto:hello@example.com" },
-          { "label": "LinkedIn", "href": "https://linkedin.com" }
+          { "label": "Email Me", "href": "mailto:davidoluwafemi178@gmail.com" },
+          { "label": "+234 811 658 5993", "href": "tel:+2348116585993" },
+          { "label": "Ile-Ife, Nigeria", "href": "#location" }
         ]
       }
     ],
     "social": [
-      { "type": "github", "href": "https://github.com" },
-      { "type": "linkedin", "href": "https://linkedin.com" },
-      { "type": "x", "href": "https://x.com" }
+      { "type": "github", "href": "https://github.com/jay-davisphem" },
+      { "type": "linkedin", "href": "https://linkedin.com/in/davisphem" },
+      { "type": "x", "href": "https://x.com/davisphem" },
+      { "type": "email", "href": "mailto:davidoluwafemi178@gmail.com" }
     ],
-    "copyright": "© 2026 Alex Davis. All rights reserved."
+    "copyright": "© 2026 Oluwafemi David. Computer Engineering Student | Full Stack Developer | AI Enthusiast"
   }
 }
