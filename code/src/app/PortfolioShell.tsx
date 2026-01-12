@@ -117,7 +117,7 @@ export default function PortfolioShell(props: {
 
             <About
               title="What I do"
-              description={state.data.newsletter.description}
+              description="I'm a Computer Engineering student (4.40/5.00 CGPA) focused on full-stack engineering and context-aware AI systems. I work as an AI Model Quality Analyst at Turing (model evaluation, data curation, debugging) and I'm actively learning Model Context Protocol (MCP) and multi-agent orchestration to build reliable LLM-powered products. Open to internships and collaborative projects."
               cards={[
                 {
                   title: "Full-stack product engineering",
