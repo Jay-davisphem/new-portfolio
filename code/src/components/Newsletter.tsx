@@ -22,7 +22,7 @@ export function Newsletter(props: {
   if (!props.enabled) return null;
 
   return (
-    <section className="pt-14 md:pt-18" id="newsletter">
+    <section className="pt-10 md:pt-12" id="newsletter">
       <div className="container-shell">
         <div className="surface px-6 py-8 md:px-10 md:py-10">
           <div className="grid gap-6 md:grid-cols-[1fr_auto] md:items-center">

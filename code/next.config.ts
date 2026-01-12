@@ -7,6 +7,8 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       // GitHub raw content
       { protocol: "https", hostname: "raw.githubusercontent.com" },
+      // GitHub avatars
+      { protocol: "https", hostname: "avatars.githubusercontent.com" },
       // Common image CDNs (safe defaults)
       { protocol: "https", hostname: "images.unsplash.com" },
       { protocol: "https", hostname: "cdn.jsdelivr.net" },

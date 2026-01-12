@@ -4,7 +4,7 @@ import { Reveal } from "@/components/motion/Reveal";
 
 export function Skills(props: { title: string; items: SkillItem[] }) {
   return (
-    <section className="pt-14 md:pt-18" id="skills">
+    <section className="pt-10 md:pt-12" id="skills">
       <div className="container-shell">
         <Reveal as="h2" className="text-sm font-semibold tracking-[0.18em] text-(--muted)">
           {props.title}

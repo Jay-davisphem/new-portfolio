@@ -2,8 +2,8 @@
   "version": "1",
   "profile": {
     "name": "Oluwafemi David",
-    "roleHeadline": "Full Stack Engineer & AI Systems Developer",
-    "heroCtaText": "View My Work",
+    "roleHeadline": "Software Engineer & AI Quality Assurance Engineer building context-aware systems (MCP) and scalable full-stack products.",
+    "heroCtaText": "Resume",
     "avatarImage": {
       "src": "https://avatars.githubusercontent.com/u/jay-davisphem",
       "alt": "Oluwafemi David - Software Engineer"
@@ -12,9 +12,11 @@
   "navigation": [
     { "label": "Home", "href": "#home" },
     { "label": "About", "href": "#about" },
-    { "label": "Projects", "href": "#projects" },
+    { "label": "Projects", "href": "#work" },
     { "label": "Skills", "href": "#skills" },
-    { "label": "Contact", "href": "#contact" }
+    { "label": "Experience", "href": "#experience" },
+    { "label": "Resume", "href": "/resume" },
+    { "label": "Contact", "href": "#newsletter" }
   ],
   "featuredProjects": {
     "title": "FEATURED PROJECTS",
@@ -37,7 +39,7 @@
           "alt": "AI and machine learning visualization"
         },
         "ctaLabel": "Learn More",
-        "ctaHref": "#mcp-journey"
+        "ctaHref": "#about"
       },
       {
         "title": "Favicon Generator Web App",
@@ -69,7 +71,7 @@
   "newsletter": {
     "enabled": true,
     "title": "Let's Build Something Together",
-    "description": "I'm a Computer Engineering student (4.45/5.00 CGPA) passionate about full-stack development and AI systems. Currently working as an AI Model Quality Analyst at Turing while expanding my expertise in Model Context Protocol and multi-agent systems. Open to internship opportunities and collaborative projects.",
+    "description": "Want to collaborate, hire me, or discuss an idea? Drop your email and I’ll reach out.",
     "placeholder": "davidoluwafemi178@gmail.com",
     "buttonText": "Get In Touch"
   },
@@ -78,9 +80,9 @@
       {
         "title": "About",
         "links": [
-          { "label": "My Story", "href": "#about" },
-          { "label": "Resume", "href": "/resume.pdf" },
-          { "label": "MCP Roadmap", "href": "#mcp-journey" }
+          { "label": "My Story", "href": "#home" },
+          { "label": "Resume", "href": "/resume" },
+          { "label": "MCP Roadmap", "href": "#work" }
         ]
       },
       {
@@ -96,7 +98,7 @@
         "links": [
           { "label": "Email Me", "href": "mailto:davidoluwafemi178@gmail.com" },
           { "label": "+234 811 658 5993", "href": "tel:+2348116585993" },
-          { "label": "Ile-Ife, Nigeria", "href": "#location" }
+          { "label": "Ile-Ife, Nigeria", "href": "#newsletter" }
         ]
       }
     ],

@@ -9,7 +9,7 @@ export function FeaturedProjects(props: {
   items: FeaturedProject[];
 }) {
   return (
-    <section className="pt-14 md:pt-18" id="work">
+    <section className="pt-10 md:pt-12" id="work">
       <div className="container-shell">
         <Reveal as="div" className="mb-5 flex items-end justify-between">
           <h2 className="text-sm font-semibold tracking-[0.18em] text-(--muted)">{props.title}</h2>
