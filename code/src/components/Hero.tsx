@@ -1,15 +1,11 @@
 import type { PortfolioImage } from "@/lib/portfolio/types";
 import Image from "next/image";
-import Link from "next/link";
-import { IconArrowRight } from "@/components/icons";
 import { Reveal } from "@/components/motion/Reveal";
 
 export function Hero(props: {
   name: string;
   roleHeadline: string;
-  heroCtaText: string;
   avatar: PortfolioImage;
-  ctaHref: string;
 }) {
   return (
     <section className="pt-10 md:pt-14" id="home">
@@ -33,12 +29,6 @@ export function Hero(props: {
             <h1 className="mt-3 text-balance text-[38px] font-semibold leading-[1.12] tracking-tight md:text-[54px]">
               {props.roleHeadline}
             </h1>
-            <div className="mt-6">
-              <Link className="btn-primary" href={props.ctaHref}>
-                {props.heroCtaText}
-                <IconArrowRight className="h-4 w-4" />
-              </Link>
-            </div>
           </Reveal>
         </div>
       </div>

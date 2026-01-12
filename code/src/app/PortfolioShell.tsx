@@ -110,9 +110,7 @@ export default function PortfolioShell(props: {
             <Hero
               name={state.data.profile.name}
               roleHeadline={state.data.profile.roleHeadline}
-              heroCtaText={state.data.profile.heroCtaText}
               avatar={state.data.profile.avatarImage}
-              ctaHref="#work"
             />
 
             <About
