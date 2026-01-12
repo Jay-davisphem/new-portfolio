@@ -3,7 +3,7 @@
   "profile": {
     "name": "Oluwafemi David",
     "roleHeadline": "Software Engineer & AI Quality Assurance Engineer.",
-    "heroCtaText": "Resume",
+    "heroCtaText": "View My Work",
     "avatarImage": {
       "src": "https://avatars.githubusercontent.com/u/jay-davisphem",
       "alt": "Oluwafemi David - Software Engineer"
@@ -15,7 +15,6 @@
     { "label": "Projects", "href": "#work" },
     { "label": "Skills", "href": "#skills" },
     { "label": "Experience", "href": "#experience" },
-    { "label": "Resume", "href": "/resume" },
     { "label": "Contact", "href": "#newsletter" }
   ],
   "featuredProjects": {

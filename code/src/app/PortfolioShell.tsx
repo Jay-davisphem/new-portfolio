@@ -104,7 +104,7 @@ export default function PortfolioShell(props: {
             <Header
               brand={state.data.profile.name}
               navigation={state.data.navigation}
-              primaryCta={{ label: state.data.profile.heroCtaText, href: "/resume" }}
+              primaryCta={{ label: state.data.profile.heroCtaText, href: "#work" }}
             />
 
             <Hero
@@ -112,7 +112,7 @@ export default function PortfolioShell(props: {
               roleHeadline={state.data.profile.roleHeadline}
               heroCtaText={state.data.profile.heroCtaText}
               avatar={state.data.profile.avatarImage}
-              ctaHref="/resume"
+              ctaHref="#work"
             />
 
             <About
